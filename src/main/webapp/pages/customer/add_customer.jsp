@@ -1,11 +1,13 @@
+<%@page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@taglib uri="http://struts.apache.org/tags-html" prefix="html"%>
 <%@taglib uri="http://struts.apache.org/tags-bean" prefix="bean"%>
  
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
-<h1>Struts + Spring + Hibernate example</h1>
+<h1>Struts + Spring + JDBC example</h1>
 
 <h2>Add Customer</h2>
 <div style="color:red">

@@ -20,8 +20,7 @@
 
 	 	<action
 			path="/AddCustomerPage"
-			type="org.apache.struts.actions.ForwardAction"
-			parameter="/pages/customer/add_customer.jsp"/>
+			forward="/pages/customer/add_customer.jsp"/>
 
 
 		<action
@@ -53,7 +52,7 @@
  	<!-- Spring Struts plugin -->
  	<plug-in className="org.springframework.web.struts.ContextLoaderPlugIn">
 		<set-property property="contextConfigLocation"
-		value="/WEB-INF/classes/SpringBeans.xml" />
+		value="classpath:SpringBeans.xml" />
   	</plug-in>
  
 </struts-config>

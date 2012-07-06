@@ -5,24 +5,22 @@ import java.util.List;
 import com.mkyong.customer.bo.CustomerBo;
 import com.mkyong.customer.dao.CustomerDao;
 import com.mkyong.customer.model.Customer;
- 
-public class CustomerBoImpl implements CustomerBo{
- 
+
+public class CustomerBoImpl implements CustomerBo {
+
 	CustomerDao customerDao;
-	
+
 	public void setCustomerDao(CustomerDao customerDao) {
 		this.customerDao = customerDao;
 	}
 
-	public void addCustomer(Customer customer){
-		
+	public void addCustomer(final Customer customer) {
 		customerDao.addCustomer(customer);
-
 	}
-	
-	public List<Customer> findAllCustomer(){
-		
+
+	public List<Customer> findAllCustomer() {
+
 		return customerDao.findAllCustomer();
 	}
- 
+
 }
