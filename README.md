@@ -14,3 +14,8 @@ Change Log
 	* Change spring configuration designed to load files from classpath.
 	* Change database from mysql to h2database.
 
+
+How to use
+---------------------
+1. Run 'gradlew eclipse' and import to Eclipse.
+2. You can execute this application by run 'gradlew jettyRun'.
