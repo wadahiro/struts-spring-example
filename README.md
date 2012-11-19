@@ -17,5 +17,5 @@ Change Log
 
 How to use
 ---------------------
-1. Run 'gradlew eclipse' and import to Eclipse as project.
+1. Run 'gradlew eclipse' and import to Eclipse as a project.
 2. You can execute this application by run 'gradlew jettyRun'.
